@@ -1,0 +1,21 @@
+{
+  "name": "pkg-hello-world",
+  "version": "1.0.0",
+  "description": "Simple hello world example for pkg",
+  "main": "index.js",
+  "bin": "index.js",
+  "author": "Brad Parham",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "make": "pkg ."
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  },
+  "pkg": {
+    "scripts": "index.js",
+    "targets": [ "node18" ],
+    "outputPath": "dist"
+  }
+}

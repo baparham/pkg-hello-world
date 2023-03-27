@@ -1,0 +1,10 @@
+diff --git a/node_modules/pkg-fetch/patches/patches.json b/node_modules/pkg-fetch/patches/patches.json
+index c3bb657..4356f83 100644
+--- a/node_modules/pkg-fetch/patches/patches.json
++++ b/node_modules/pkg-fetch/patches/patches.json
+@@ -1,4 +1,5 @@
+ {
++  "v18.15.0": ["foo.bar"],
+   "v18.5.0": ["node.v18.5.0.cpp.patch"],
+   "v16.16.0": ["node.v16.16.0.cpp.patch"],
+   "v14.20.0": ["node.v14.20.0.cpp.patch"],

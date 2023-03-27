@@ -8,7 +8,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "make": "pkg ."
+    "make": "pkg .",
+    "worker-demo": "pkg worker-demo.js",
+    "main-demo": "pkg index.js"
   },
   "devDependencies": {
     "pkg": "^5.8.1"
